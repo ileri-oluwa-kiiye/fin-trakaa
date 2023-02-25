@@ -1,0 +1,97 @@
+
+.form h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 72px;
+    margin-top: 10px;
+}
+
+.form p{
+    font-weight: 400;
+    font-size: 17px;
+    max-width: 497px;
+    line-height: 25px;
+}
+
+
+.form form input{
+    outline: none;
+    border:  1px solid #D9D9D9;
+    padding: 7px 14px;
+    width: 92%;
+    margin: 10px 0px;
+    border-radius: 2px;
+    max-width: 90vw;
+}
+
+.form form{
+    font-size: 13px;
+    margin: 9vh 0px 0px 0px;
+}
+
+.form form span{
+    color: #1D19F0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+form span.flex{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form form span:hover{
+    color: gray;
+}
+
+.form form span:active{
+    color: black;
+}
+
+
+
+.form form input[type="submit"]{
+    border:  1px solid #1D19F0;
+    background-color: #1D19F0;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: max-content;
+    max-width: 90vw;
+}
+
+.form form input[type="radio"]{
+    width: max-content;
+    margin: 3px;
+}
+
+
+
+.form form input[type="submit"]:hover{
+    background-color: white;
+    color: #1D19F0;
+}
+
+.form form input[type="submit"]:active{
+    border: 1px solid black;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+    .form h1{
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 52px;
+    }
+
+    .form p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+}

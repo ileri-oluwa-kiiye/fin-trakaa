@@ -1,0 +1,48 @@
+.dashboard{
+    padding: 3%;
+    width: max-content;
+    max-width: 550px;
+    margin: auto;
+}
+
+.dashboard div{
+    max-width: 90vw;
+    min-height: 82vh;
+}
+
+.dashboard h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 72px;
+    margin: 20px 0px;
+}
+
+.dashboard p{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+
+.dashboard footer img{
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+.dashboard footer{
+    color: #1D19F0;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .dashboard h2{
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .dashboard p{
+        font-size: 12px;
+    }
+}

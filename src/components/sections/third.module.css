@@ -1,0 +1,26 @@
+.padding{
+    margin: 1% 10% 5% 10%;
+}
+
+.wrapdiv{
+    background-color:rgba(19, 54, 168, 0.3);
+    color: #1D19F0;
+    border-radius: 20px;
+}
+
+.wrapdiv p{
+
+    color: #1D19F0;
+}
+
+.service{
+    padding-top: 10vh;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+    .wrapdiv,.wrapdivs h1{
+        font-size: 24px;
+        line-height: 31px;
+    }
+}

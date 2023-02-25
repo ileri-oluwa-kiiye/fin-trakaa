@@ -1,0 +1,120 @@
+
+
+
+.wrapdiv{
+    background-color: #1D19F0;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.logo{
+    background-color: white;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 1000px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    padding: 38px 20px;
+    margin: 20px auto;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 1%;
+}
+
+.first ul{
+    display: flex;
+}
+
+.first, .second, .third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 0px 20px;
+}
+
+.third ul{
+    display: block;
+    padding-bottom: 30px;
+}
+
+.third li{
+    padding: 5px 0px;
+}
+
+.first{
+    width: 140px;
+}
+
+
+.first img{
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+
+.second{
+    width: 90%;
+    max-width: 800px;
+}
+
+.third{
+    width: 400px;
+    max-width: 80vw;
+}
+
+.second {
+    padding-bottom: 60px;
+}
+
+.second div{
+    padding-bottom: 40px;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .logo{
+        padding: 20px 11px;
+        font-size: 19px;
+    }
+
+    .first, .second, .third div{
+        width: fit-content;
+        margin: auto;
+    }
+
+    .second {
+        padding-bottom: 30px;
+    }
+    
+    .second div{
+        padding-bottom: 20px;
+    }
+    
+
+    .second {
+        margin-top: 30px;
+    }
+   
+
+    .flex{
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width:500px){
+    .wrapdiv{
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,268 @@
+.welcome{
+    width: 60vw;
+    max-width: 870px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255,1);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 40px 4px rgba(19, 54, 168, 0.11);
+}
+
+.welcome h1{
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 72px;
+}
+
+.welcome p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 320px;
+}
+
+.welcome .image{
+    width: 300px;
+    max-width: 60vw;
+    height: 15vh;
+    margin: 5px;
+    background-color: #D9D9D9;;
+}
+
+.hrline{
+    border-radius: 10px;
+    width: 100%;
+    min-width: 32vw;
+    height: 1px;
+    margin: 5px 0px;
+    background-color: black;
+}
+
+.cover{
+    max-width: 500px;
+    min-width: 32vw;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 40px 4px rgba(19, 54, 168, 0.11);
+    padding: 15px;
+}
+
+.cover h1{
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.cover p{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.cover .heading{
+    display: flex;
+    width: 100%;
+    min-width: 32vw;
+    padding: 5px 0px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+button.secondary{
+    color: white;
+    min-width: fit-content;
+    padding: 5px 10px;
+    background-color: #1D19F0;
+    border: 1px solid #1D19F0;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 33px;
+}
+
+.cover li h2{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.flex li{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    min-width: 31vw;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.flex li p{
+    max-width: 180px;
+}
+
+.flex li img{
+    margin-right: 10px;
+}
+
+
+
+button.secondary:hover{
+    border: 1px solid black;
+    background-color: white;
+}
+
+button.primary{
+    color: #1D19F0;
+    padding: 5px 10px;
+    background-color: white;
+    min-width: fit-content;
+    border: 1px solid #1D19F0;
+    border-radius: 33px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+button.primary:hover{
+    border: 1px solid #D9D9D9;
+    background-color: #D9D9D9;
+}
+
+.liabilities button.primary{
+    border: 1px solid #A81312;
+    color: #A81312;
+}
+
+.equity button.primary{
+    border: 1px solid #FFCD29;
+    color: #FFCD29;
+}
+
+.details{
+    display: flex;
+    max-width: 300px;
+    margin-top: 10px;
+    min-width: 200px;
+}
+
+.details .sales{
+    color: #1336A8;
+    border: 1px solid #1336A8;
+    padding: 4px 30px;
+}
+
+.details img{
+    margin-left: 60px;
+}
+
+
+.details .purchases{
+    color: #F6C505;
+    border: 1px solid #F6C505;
+}
+
+.details div{
+    border-radius: 20px;
+    padding: 4px 20px;
+}
+
+.details li{
+    max-width: 140px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin: 20px 0px;
+}
+
+.details li img{
+    height: 15px;
+    width: 1px;
+    transform: rotate(270deg);
+}
+
+.details li p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+    .welcome {
+        flex-direction: column-reverse;
+    }
+
+    .welcome{
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 65vw;
+    }
+
+    .cover li p{
+        line-height: 15px;
+        font-size: 10px;
+        min-width: 100px;
+        margin-right: 0px;
+    }
+
+    .cover li img{
+        width: 25px;
+    }
+
+    .welcome h1{
+        font-size: 30px;
+    }
+
+    .welcome p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .heading div{
+        min-width: 45vw;
+        margin-right: 10px
+    }
+
+    .heading div p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .cover .flex{
+        width: 72vw;
+        max-width: 480px;
+    }
+
+    button.primary, button.secondary{
+        padding: 3px 6px;
+    }
+
+    .hrline{
+        width: 74vw;
+        max-width: 500px;
+    }
+
+    .cover{
+        width: 75vw;
+        max-width: 500px;
+        margin: 40px 0px;
+    }
+
+    .cover .heading{
+        width: 65vw;
+        max-width: 500px;
+    }
+
+    .welcome .image{
+         margin: auto;
+         margin-bottom: 20px;
+         min-width: 60vw;
+         height: 30vw;
+         margin-top: 10px;
+    }
+}

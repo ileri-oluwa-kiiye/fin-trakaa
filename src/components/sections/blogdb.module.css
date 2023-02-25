@@ -1,0 +1,61 @@
+.cover{
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px 0px;
+    padding: 1vw;
+    box-shadow: 0px 4px 40px 4px rgba(19, 54, 168, 0.11);
+    margin-right: 10px;
+    
+}
+
+.cover h1{
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.cover p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.hrline{
+    width: 100%;
+    min-width: 15vw;
+    height: 1px;
+    background-color: black;
+}
+
+.cover .div{
+    margin-right: 0px;
+}
+
+.header {
+    display: flex;
+    min-width: 15vw;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.image img{
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #D9D9D9;
+}
+
+.flex li{
+    display: flex;
+    min-width: 15vw;
+    justify-content: space-between;
+    margin: 8px 0px;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .cover{
+        padding: 13px;
+    }
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+.div h1{
+    font-weight: 700;
+font-size: 48px;
+line-height: 67px;
+max-width: 500px;
+}
+
+.div section div small{
+    margin: 0%;
+    padding: 0%;
+}
+
+.div small{
+    color: #393939;
+}
+
+.list{
+    margin: 20px 0px;
+}
+
+
+
+.div button{
+    border:  1px solid #1D19F0;
+    background-color: #1D19F0;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: max-content;
+    max-width: 90vw;
+}
+
+
+
+
+
+.div button:hover{
+    background-color: white;
+    color: #1D19F0;
+}
+
+.div button:active{
+    border: 1px solid black;
+}
+

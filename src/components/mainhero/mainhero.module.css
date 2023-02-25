@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200;1,400&display=swap');
+
+
+:root{
+    ---primary-color: #D9D9D9;
+    --secondary-color: #8E8686;
+    --black: #020206;
+}
+
+
+.section{
+    max-width: 500px;
+    font-family: "Poppins", sans-serif;
+    padding: 8%;
+}
+
+
+/* .wrapdiv{
+    background-color: var(---primary-color);
+} */
+
+
+.section button{
+    background-color: #1D19F0;
+    color: white;
+    border: 1px solid #1D19F0;
+    margin: 50px 0px;
+}
+
+.section button:hover{
+    background-color: var(--primary-color);
+    color: var(--black);
+}
+
+.section button:active{
+    background-color: var(--primary-color);
+    color: #1D19F0;
+}
+
+.section h1{
+    font-size: 40px;
+    line-height: 60px;
+}
+
+
+.second{
+    background-color: #1D19F0;
+    color: white;
+    margin-bottom: 200px;
+    padding: 1vw;
+}
+
+.section p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--black);
+    margin-top: 20px;
+}
+
+.second p{
+    color: white;
+}
+
+
+@media screen and (max-width:1000px){
+
+    .section{
+        padding: 50px 30px;
+    }
+
+    .section p{
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .section h1{
+        font-size: 24px;
+        line-height: 40px;
+    }
+}

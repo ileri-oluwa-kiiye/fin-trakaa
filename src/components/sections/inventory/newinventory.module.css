@@ -1,0 +1,154 @@
+.heading button{
+    
+    padding: 5px 10px;
+    background: #1D19F0;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+
+.heading button:hover{
+    color: black;
+}
+
+
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.options{
+    margin: 30px 0px;
+}
+
+.options select{
+    outline: none;
+    border: 1px solid #1D19F0;
+    background-color: white;
+    border-radius: 30px;
+    padding: 2px 0px 2px 4px;
+    color: #1D19F0;
+    margin-right: 2vw;
+}
+
+.options select.all{
+    background-color: #1D19F0;
+    color: white;
+}
+
+.options select:hover{
+    background-color: rgba(29, 25, 240, 0.4);
+}
+.main{
+    width: 70vw;
+    text-align: center;
+    margin: 5vw;
+}
+
+.heading div{
+    min-width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .image{
+    width: fit-content;
+    margin: 30px auto;
+    border-radius: 20px;
+    font-size: 64px;
+    padding: 16vh 19vw;
+    background-color: white;
+    max-width: 60vw;
+}
+
+.main p{
+    max-width: 500px;
+    margin: auto;
+}
+
+
+.heading select{
+    color: black;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-weight: 700;
+font-size: 16px;
+}
+
+
+button.invbutton{
+    background: #1D19F0;
+    border-radius: 20px;
+    color: white;
+     font-weight: 700;
+    font-size: 16px;
+    border: 1px solid #1D19F0;
+    margin: -30px 0px 20px 0px;
+}
+
+
+
+/*-------------------------------------------------------*/
+.choose .activee{
+    border-bottom: 1px solid #1D19F0;
+}
+
+.choose{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px
+}
+
+.choose li{
+    margin-right: 9vw;
+}
+
+
+
+/*-------------------------------------------------------*/
+
+div .overflow{
+    overflow-x: scroll;
+    max-width: 80vw;
+}
+.table{
+    max-width: 80vw;
+    min-width: 900px;
+    margin: 5vh 0px;
+    overflow-x: scroll;
+}
+
+
+.table div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E8E8E8;
+    padding: 15px 5%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+
+table td, th{
+    border: 1px solid rgba(29, 25, 240, 0.4);
+    padding: 7px 5px;
+    text-align: center;
+}
+
+
+.table button{
+    padding: 5px 10px;
+    background: #1D19F0;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin: 30px 0px;
+}

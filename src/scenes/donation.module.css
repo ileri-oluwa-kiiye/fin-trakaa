@@ -1,0 +1,271 @@
+:root{
+    --grey: white;
+    --brown: #1D19F0;
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    max-height: 90vh;
+    margin: 8vh 4vw;
+}
+
+.image img{
+    max-height: 80vh;
+    max-width: 45vw;
+    margin: 1vh 1vw;
+}
+
+.flex .main{
+    height: 80vh;
+    margin: 0px 1vw;
+    max-width: 44vw;
+    padding-right: 1vw;
+    overflow-y: scroll;
+}
+
+
+.main h1{
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 72px;
+    margin-bottom: 25px;
+}
+
+.main p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.main h2{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+
+.thanks{
+    padding-right: 5vw;
+}
+
+.thanks h1{
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 25vh;
+}
+
+.thanks p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+.thanks h2{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 5px;
+    line-height: 40px;
+}
+
+.thanks .button{
+    margin-top: 20vh;
+}
+
+.donation{
+    display: flex;
+}
+
+.donation .money, .coffee{
+    box-shadow: 0px 4px 20px 4px rgba(29, 25, 240, 0.11);
+    width: 170px;
+    border-radius: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.payment h2{
+    margin-bottom: 10px;
+}
+
+.payment button{
+
+    color: #1D19F0;
+    padding: 5px 10px;
+    background-color: white;
+    min-width: fit-content;
+    border: 1px solid #1D19F0;
+    border-radius: 33px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.copy div{
+    padding: 5px 30px;
+    background-color: white;
+    width: fit-content;
+    border: 1px solid #1D19F0;
+    border-radius: 33px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.payment button.active{
+
+    color: white;
+    min-width: fit-content;
+    padding: 5px 10px;
+    background-color: #1D19F0;
+    border: 1px solid #1D19F0;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 33px;
+}
+
+.payment .links{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.payment .img img{
+    width: 300px;
+}
+.donation h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.payment .img{
+    width: 310px;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.copy{
+    display: flex;
+    margin: 30px auto;
+    width: fit-content;
+}
+
+.donation img{
+    background-color: white;
+    border: 1px solid #1D19F0;
+    padding: 15px;
+    border-radius: 440px;
+}
+
+
+
+.donation .money .input{
+    background: rgba(29, 25, 240, 0.5);
+    border-radius: 5px;
+    width: 140px;
+    margin: auto;
+    padding: 4px 8px;
+    color: #1336A8;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.donation .coffee .input{
+    background: rgba(29, 25, 240, 0.5);
+    border-radius: 5px;
+    width: 140px;
+    color: #1336A8;
+    margin: auto;
+    padding: 4px 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thanks h1{
+    margin-bottom: 5vh;
+}
+
+.payment .button{
+    margin-top: 2vh;
+}
+
+
+.payment .copy .stagnant:hover{
+    color: tz1W8E3BLfwyJYuNWgj8yPUjYZQhWBeCTwZi;
+    background-color: white;
+}
+
+
+
+
+
+.main .button button{
+    background-color: #1D19F0;
+    border-radius: 20px;
+    padding: 4px 17px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    margin: 0px auto;
+}
+
+.button{
+    margin: 0px auto;
+    width: max-content;
+}
+
+.main .button button:active{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+
+.thanks .button{
+    margin-top: 30px;
+}
+
+.thanks .imagetwo img{
+    margin: 30px auto;
+    width: 200px;
+    margin-left: 40px;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+    .image{
+        display: none;
+    }
+
+    .flex .main{
+        max-width: 90vw;
+    }
+
+
+    .main h1{
+        font-size: 30px;
+    }
+
+    .main p{
+        font-size: 14px;
+    }
+    .main h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .donation{
+        display: block;
+    }
+}
