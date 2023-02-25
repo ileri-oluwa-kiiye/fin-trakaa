@@ -2,6 +2,7 @@ import image from "../img/donation.png"
 import styles from "./donation.module.css"
 import money from "../img/money.png"
 import coffee from "../img/coffee.png"
+import { Link } from "react-router-dom"
 
 const Donation = () => {
     return(
@@ -46,10 +47,11 @@ const Donation = () => {
                                     </div>
                                 </div>
                             </div>
-
-                        <div className={styles.button}>
-                            <button>Donate Now</button>
-                        </div>
+                        <Link to="/pay" style={{color:'inherit', textDecoration: 'none'}}>
+                            <div className={styles.button}>
+                                <button>Donate Now</button>
+                            </div>
+                        </Link>
                         </form>
                         
                     </div>
