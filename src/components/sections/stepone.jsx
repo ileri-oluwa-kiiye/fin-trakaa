@@ -1,4 +1,5 @@
 import styles from "./form.module.css"
+import { Link } from "react-router-dom"
 
 const Stepone = () => {
 
@@ -11,7 +12,7 @@ const Stepone = () => {
         <h1>Welcome to Fin-traka</h1>
         <p>Open your account</p>
       </div>
-      <form action="/confirmation" method="GET">
+      <form method="GET">
         <div>
             <label htmlFor="firstname">First Name</label> 
             <div><input type="text" name="firstname" /></div>
@@ -49,9 +50,9 @@ const Stepone = () => {
             <label htmlFor="agree">I agree to all the <span>terms and privacy policy</span> of Fin-traka</label> 
         </div>
         
-        <div>
+        <Link to="/confirmation" style={{color:'inherit', textDecoration: 'none'}}><div>
             <input type="submit" value="Register" />
-          </div>
+          </div></Link>
       </form>
 
     </div>

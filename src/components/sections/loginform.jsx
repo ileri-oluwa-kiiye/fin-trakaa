@@ -2,7 +2,7 @@
 // import { Formik } from "formik";
 // import * as yup from "yup";
 // import useMediaQuery from "@mui/material/useMediaQuery";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "./form.module.css"
 
 const Loginform = () => {
@@ -26,10 +26,11 @@ const Loginform = () => {
             <div><input type="password" /></div>
           </div>
           <span className={styles.flex}>Forgot password?</span>
-          <div>
+          <Link to="/dashboard" style={{color:'inherit', textDecoration: 'none'}}><div>
             <input type="submit" value="Log In" />
             {/* <div><Link to="/signup">Or sign up instead?</Link></div> */}
           </div>
+          </Link>
       </form>
 
     </div>
