@@ -15,7 +15,7 @@ const Donation = () => {
                         <h1>Donation</h1>
                         <p>Every donation no matter the amount enable the Fin-traka team create a better product for our users</p>
                         <h2>How would you like to donate?</h2>
-                        <form action="/pay" method="POST">
+                        <form method="POST">
                             <div className={styles.donation}>
                                 <div className={styles.money}>
                                     <div className={styles.img}>
