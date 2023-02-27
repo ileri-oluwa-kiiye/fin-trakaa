@@ -9,9 +9,8 @@
 
 
 .section{
-    max-width: 500px;
     font-family: "Poppins", sans-serif;
-    padding: 8%;
+    padding: 10% 8%;
 }
 
 
@@ -40,6 +39,22 @@
 .section h1{
     font-size: 40px;
     line-height: 60px;
+}
+
+.section{
+    display: flex;
+    min-width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section div{
+    min-width: 400px;
+    max-width: 40vw;
+}
+
+.section img{
+    max-width: 40vw;
 }
 
 

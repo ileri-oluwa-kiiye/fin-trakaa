@@ -9,7 +9,10 @@
 }
 
 .wrapdiv p{
-
+    font-weight: 500;
+    font-size: 16px;
+    padding: 30px 0px;
+    line-height: 24px;
     color: #1D19F0;
 }
 
@@ -18,9 +21,23 @@
     text-align: center;
 }
 
-@media screen and (max-width:1000px) {
-    .wrapdiv,.wrapdivs h1{
-        font-size: 24px;
-        line-height: 31px;
-    }
+.section{
+    display: flex;
+    min-width: 80%;
+    align-items: center;
+    padding: 80px 3vw 0px 3vw;
+    justify-content: space-between;
+}
+
+
+.section img{
+    width: 500px;
+    max-width: 40vw;
+    margin-bottom: -5px
+}
+
+.section h1{
+    font-weight: 700;
+    font-size:32px;
+    line-height: 48px;
 }

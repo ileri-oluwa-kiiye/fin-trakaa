@@ -2,6 +2,7 @@ import styles from "./footer.module.css"
 import facebook from "../../img/facebook.png"
 import twitter from "../../img/twitter.png"
 import mail from "../../img/mail.png"
+import footerlogo from "../../img/footerlogo.png"
 import instagram from "../../img/instagram.png"
 
 const Footer =() =>{
@@ -11,7 +12,9 @@ const Footer =() =>{
                 
                 <div className={styles.flex}>
                     <div className={styles.first}>
-                        <div className={styles.logo}>Logo</div>
+                        <div className={styles.logos}>
+                            <img src={footerlogo} alt="" />
+                        </div>
                         <ul>
                             <li>
                                 <a href="https://facebook.com"><img src={facebook} alt="" /></a>

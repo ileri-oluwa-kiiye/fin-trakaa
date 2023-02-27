@@ -1,4 +1,35 @@
-.wrapdiv{
+/* .wrapdiv{
     display: flex;
     justify-content: flex-end;
+} */
+
+
+.section{
+    display: flex;
+    min-width: 80%;
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.section img{
+    max-width: 40vw;
+}
+
+.second{
+    background-color: #1D19F0;
+    color: white;
+    margin-bottom: 200px;
+    padding: 1vw;
+}
+
+
+
+.section p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
 }

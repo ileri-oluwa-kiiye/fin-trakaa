@@ -1,0 +1,31 @@
+.service{
+    display: flex;
+}
+
+.service img{
+    width: 650px;
+    max-width: 49vw;
+}
+
+.one{
+    margin-right: -80px;
+}
+
+.two{
+    margin-top: 50px;
+}
+
+.section{
+    margin-top: 150px;
+}
+
+
+.service{
+    width: max-content;
+    margin: auto;
+}
+
+.section h1{
+    text-align: center;
+    margin-top: 100px;
+}

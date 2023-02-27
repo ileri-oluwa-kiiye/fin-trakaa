@@ -1,0 +1,33 @@
+.wrapdiv{
+    background-image: url("../../img/news.png");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 94vw;
+    padding: 5%;
+    padding-right: 1%;
+    margin: 100px 0px
+}
+
+.section{
+    width: 500px;
+    margin-left: 40%;
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    color: white;
+    justify-self: flex-end;
+}
+
+.section h1{
+    font-size: 36px;
+    line-height: 60px;
+}
+
+.section p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}

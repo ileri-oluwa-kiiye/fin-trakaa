@@ -8,19 +8,17 @@
     font-size: 16px;
 }
 
-.logo{
+.logos{
     background-color: white;
-    font-weight: 700;
-    font-size: 30px;
     border-radius: 1000px;
-    text-align: center;
-    width: fit-content;
-    height: fit-content;
-    color: black;
-    padding: 38px 20px;
     margin: 20px auto;
+    padding: 25px 30px;
 }
 
+.logos img{
+    min-width: 50px;
+    min-height: 60px;
+}
 
 .flex{
     display: flex;

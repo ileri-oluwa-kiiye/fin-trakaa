@@ -62,6 +62,7 @@ const Addinv = () => {
                     <button>Add New +</button>
                 </table>
             </div>
+            
         </div>
     )
 }

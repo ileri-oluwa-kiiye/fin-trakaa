@@ -1,5 +1,6 @@
 
-import styles from "./mainhero.module.css"
+import styles from "./second.module.css"
+import image from "../../img/second.png"
 
 const Secondhero = () => {
     return(
@@ -7,13 +8,18 @@ const Secondhero = () => {
             <div className="controlwidth">
                 <div className={styles.wrapdiv}>
                     <div className={styles.section}>
-                        <h1>
-                            Explore variety of accounting services for your business needs
-                        </h1>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the 
-                            readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
-                        </p>
+                        <div>
+                            <img src={image} alt="" />
+                        </div>
+                        <div style={{maxWidth:'600px'}}>
+                            <h1>
+                                Explore variety of accounting services for your business needs
+                            </h1>
+                            <p>
+                                Whether it is just to input how much sales you make per day,or to sort goods 
+                                in your care, know how much to pay investors as equity, Fin-traka got you covered.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
