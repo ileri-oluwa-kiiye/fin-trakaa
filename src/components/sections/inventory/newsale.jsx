@@ -1,6 +1,7 @@
 import styles from "./newinventory.module.css"
 import image from "../../../img/newsale.png"
 import cloud from "../../../img/cloud.png"
+import { Link } from "react-router-dom"
 
 
 const Newsales = () => {
@@ -12,7 +13,7 @@ const Newsales = () => {
                     <p>No edit yet</p>
                     <img src={cloud} alt="" />
                 </div>
-                <button>Add new +</button>
+                <Link to="/addsale" style={{color:'inherit', textDecoration: 'none'}}><button>Add new +</button></Link>
             </div>
 
             <div className={styles.main}>

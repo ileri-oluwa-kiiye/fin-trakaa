@@ -33,10 +33,11 @@ const Sidebar = () => {
                             <div><img src={consult} alt="" />
                             </div> <div className={styles.text}>Consultancy</div>
                         </li>
-                        <li>
+                        <Link to="/scaninventory" style={{color:'inherit', textDecoration: 'none'}}><li>
                             <div><img src={scan} alt="" />
                             </div> <div className={styles.text}>Scan</div>
                         </li>
+                        </Link>
                         {/* <li>
                             <div><img src={icon} alt="" /></div>
                             <div className={styles.text}>Blog</div>

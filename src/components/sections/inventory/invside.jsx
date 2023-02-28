@@ -1,8 +1,8 @@
 import styles from "./invside.module.css";
 import "react-pro-sidebar/dist";
 import { Link } from "react-router-dom";
-import dashboard from "../../../img/dashboard.png"
-import book from "../../../img/book.png"
+import dashboard from "../../../img/dashboardw.png"
+import book from "../../../img/bookb.png"
 import consult from "../../../img/consult.png"
 import scan from "../../../img/scan.png"
 import blog from "../../../img/blog.png"
@@ -20,7 +20,7 @@ const Invside = () => {
                         <Link to="/dashboard"><img src={dashboard} alt="" /></Link>
                         <img src={book} alt="" />
                         <img src={consult} alt="" />
-                        <img src={scan} alt="" />
+                        <Link to="/scaninventory" style={{color:'inherit', textDecoration: 'none'}}><img src={scan} alt="" /></Link>
                         <img src={blog} alt="" />
                         <img src={setting} alt="" />
                         <Link to="/"><img src={logout} alt="" /></Link>

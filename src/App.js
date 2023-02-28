@@ -14,6 +14,7 @@ import Paymentcrypto from "./scenes/crypto";
 import Salesnew from "./scenes/newsales";
 import Manualdata from "./scenes/manualdata";
 import Scandata from "./scenes/scaninv";
+import Addsale from "./scenes/addsale";
 
 
 
@@ -37,6 +38,7 @@ function App() {
           <Route path="/newsales" element={<Salesnew />} />
           <Route path="/addinventory" element={<Manualdata />} />
           <Route path="/scaninventory" element={<Scandata />} />
+          <Route path="/addsale" element={<Addsale />} />
         </Routes>
       </BrowserRouter>
   );
