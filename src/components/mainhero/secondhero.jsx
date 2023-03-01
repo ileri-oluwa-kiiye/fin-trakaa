@@ -13,7 +13,7 @@ const Secondhero = () => {
                         </div>
                         <div style={{maxWidth:'600px'}}>
                             <h1>
-                                Explore variety of accounting services for your business needs
+                                Explore variety of book keeping services for your business needs
                             </h1>
                             <p>
                                 Whether it is just to input how much sales you make per day,or to sort goods 
