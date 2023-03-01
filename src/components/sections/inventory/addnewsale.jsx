@@ -1,16 +1,15 @@
 import styles from "./newinventory.module.css"
 import cloud from "../../../img/cloudcheck.png"
-import info from "../../../img/info.png"
 import { Link } from "react-router-dom"
 import del from "../../../img/del.png"
 
 
-const Addinv = () => {
+const Addnewsale = () => {
     return(
         <div>
             <div className={styles.heading}>
                 <div>
-                     <h2>Inventory  |</h2>
+                     <h2>Sales  |</h2>
                     <p>Edited minutes ago</p>
                     <img src={cloud} alt="" />
                     <h2> | <select name="date" id="date">
@@ -20,9 +19,17 @@ const Addinv = () => {
                 </div>
             </div>
 
-            <div className={styles.choose}>
-                <li className={styles.activee}>Manual data entry</li>
-                <Link to="/scaninventory" style={{color:'inherit', textDecoration: 'none'}}><li>Upload /scan written inventory <img src={info} alt="" /></li></Link>
+            <div className={styles.options}>
+                <select className={styles.all}>
+                    <option>Add</option>
+                </select>
+                <select>
+                    <option>Paid</option>
+
+                </select>
+                <select>
+                    <option>Unpaid</option>
+                </select>
             </div>
 
 
@@ -64,9 +71,10 @@ const Addinv = () => {
             </div>
 
 
-            {/* <aside>
-                    <div>
-                        <header>Supplier's Details</header>
+            <aside>
+                <div className={styles.flex}>
+                    <div className={styles.one}>
+                        <header>Customer Details</header>
                         <div>
                             <div>
                                 <h2>Name</h2>
@@ -84,13 +92,40 @@ const Addinv = () => {
                                 <h2>Email</h2>
                                 <input type="email" />
                             </div>
+                            <div>
+                                <h2>Points</h2>
+                                <input type="text" />
+                            </div>
                         </div>
                     </div>
-            </aside> */}
+                    <div className={styles.one}>
+                        <header>Delivery Details</header>
+                        <div>
+                            <div>
+                                <h2>Delivery address</h2>
+                                <input type="text" />
+                            </div>
+                            <div>
+                                <h2>Delivery charges</h2>
+                                <input type="text" />
+                            </div>
+                            <div>
+                                <h2>Total due</h2>
+                                <input type="text" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+
+            <Link to="/dashboard" style={{color:'inherit', textDecoration: 'none'}}>
+                <div style={{display:'flex', justifyContent:'flex-end'}}><button className={styles.invbutton}>Preview Invoice</button></div>
+            </Link>
             
         </div>
     )
 }
 
 
-export default Addinv
+export default Addnewsale

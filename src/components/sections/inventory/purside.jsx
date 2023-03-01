@@ -10,7 +10,7 @@ import logo from "../../../img/sidebarlogo.png"
 import setting from "../../../img/setting.png"
 import logout from "../../../img/logout.png"
 
-const Invside = () => {
+const Purside = () => {
     return (
         <div className={styles.wrap}>
             <div className={styles.flex}>
@@ -29,8 +29,8 @@ const Invside = () => {
                 <div className={styles.right}>
                     <div>
                         <Link to="/newsales" style={{color:'inherit', textDecoration: 'none'}}><li>Sales</li></Link>
-                        <Link to="/purchase" style={{color:'inherit', textDecoration: 'none'}}><li>Purchases</li></Link>
-                        <li className={styles.active}>Inventory</li>
+                        <li className={styles.active}>Purchases</li>
+                        <Link to="/inventory"  style={{color:'inherit', textDecoration: 'none'}}><li>Inventory</li></Link>
                         <li>Invoices</li>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const Invside = () => {
 
 
 
-export default Invside
+export default Purside
 
 
 // (

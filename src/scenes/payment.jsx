@@ -20,33 +20,37 @@ const Paymentcard = () =>{
                                 <Link to="/crypto" style={{color:'inherit', textDecoration: 'none'}}><button>Crypto</button></Link>
                             </div>
 
-                            <div className={styles.card}>
-                                <h3>Card type</h3>
-                                <select name="cardtype" id="cardtype">
-                                    <option>Card type</option>
-                                    <option>VISA</option>
-                                    <option>Master Card</option>
-                                    <option>Verve</option>
-                                </select>
-                            </div>
+                            <section>
+                                <div className={styles.card}>
+                                    <h2>Card type</h2>
+                                    <select name="cardtype" id="cardtype">
+                                        <option>Card type</option>
+                                        <option>VISA</option>
+                                        <option>Master Card</option>
+                                        <option>Verve</option>
+                                    </select>
+                                </div>
 
-                            <div className={styles.cardno}>
-                                <h3>Card Number</h3>
-                                <input type="text" />
-                            </div>
+                                <div className={styles.cardno}>
+                                    <h2>Card Number</h2>
+                                    <input type="text" placeholder="****   ****   ****  ****"/>
+                                </div>
 
-                            <div className={styles.cardno}>
-                                <h3>Expiration date</h3>
-                                <input type="text" />
-                            </div>
+                                <div className={styles.fleex}>
+                                    <div className={styles.expire}>
+                                        <h2>Expiration date</h2>
+                                        <input type="text" placeholder="MM | YYYY" />
+                                    </div>
 
-                            <div className={styles.cardno}>
-                                <h3>CVV</h3>
-                                <input type="text" />
-                            </div>
-                            <div className={styles.button}>
-                                <button><Link to="/thanks" style={{color:'inherit', textDecoration: 'none'}}>Checkout</Link></button>
-                            </div>
+                                    <div className={styles.cvv}>
+                                        <h2>CVV</h2>
+                                        <input type="text" placeholder="***"/>
+                                    </div>
+                                </div>
+                                <div className={styles.button}>
+                                    <Link to="/thanks" style={{color:'inherit', textDecoration: 'none'}}><button>Donate Now</button></Link>
+                                </div>
+                            </section>
                             
                         </div>
                     </div>

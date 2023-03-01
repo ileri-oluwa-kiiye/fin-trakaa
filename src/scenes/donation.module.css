@@ -29,7 +29,7 @@
 
 .main h1{
     font-weight: 700;
-    font-size: 41px;
+    font-size: 31px;
     line-height: 72px;
     margin-bottom: 25px;
 }
@@ -54,7 +54,7 @@
 
 .thanks h1{
     font-weight: 700;
-    font-size: 71px;
+    font-size: 51px;
     line-height: 72px;
     text-align: center;
     margin-bottom: 25vh;
@@ -149,6 +149,10 @@
     margin-bottom: 0px;
 }
 
+.thanks .imagetwo{
+    width: fit-content;
+    margin: auto;
+}
 .copy{
     display: flex;
     margin: 30px auto;
@@ -198,10 +202,48 @@
 
 
 .payment .copy .stagnant:hover{
-    color: tz1W8E3BLfwyJYuNWgj8yPUjYZQhWBeCTwZi;
     background-color: white;
 }
 
+.payment section{
+    min-width: 40vw;
+    margin: auto;
+    padding-left: 3vw;
+    margin-top: 70px;
+}
+
+.payment section h2{
+    font-weight: 700;
+    margin: 5px 0px;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.payment input,select{
+    outline: none;
+    font-weight: 500;
+    font-size: 12px;
+    border: none;
+    border-bottom: 1.5px solid black;
+}
+
+.payment .card select{
+    padding: 5px 10px;
+    width: 93%;
+}
+
+.payment .cardno input{
+    padding: 5px 10px;
+    width: 90%;
+}
+
+.payment .fleex{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin-bottom: 13vh;
+}
 
 
 
@@ -240,6 +282,9 @@
     margin-left: 40px;
 }
 
+.payment .button button{
+    margin-left: 150px;
+}
 
 
 

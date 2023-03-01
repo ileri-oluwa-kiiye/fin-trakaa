@@ -30,9 +30,9 @@ const Paymentcrypto = () =>{
                             <div style={{color:'#393939', backgroundColor:'white'}}>tz1W8E3BLfwyJYuNWgj8yPUjYZQhWBeCTwZi</div>
                             <button className={styles.active}>Copy</button>
                         </div>
-                        <div className={styles.button}>
-                                <button><Link to="/thanks" style={{color:'inherit', textDecoration: 'none'}}>Checkout</Link></button>
-                        </div>
+                        <Link to="/thanks" style={{color:'inherit', textDecoration: 'none'}}><div className={styles.button}>
+                                <button>Checkout</button>
+                        </div></Link>
                         
                     </div>
                 </div>

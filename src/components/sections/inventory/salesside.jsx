@@ -15,7 +15,7 @@ const Salesside = () => {
         <div className={styles.wrap}>
             <div className={styles.flex}>
                 <div className={styles.left}>
-                    <h2><img src={logo} alt="" /></h2>
+                <Link to="/home" style={{color:'inherit', textDecoration: 'none'}}><h2><img src={logo} alt="" /></h2></Link>
                     <div className={styles.icons}>
                         <Link to="/dashboard"><img src={dashboard} alt="" /></Link>
                         <img src={book} alt="" />
@@ -29,7 +29,7 @@ const Salesside = () => {
                 <div className={styles.right}>
                     <div>
                         <li className={styles.active}>Sales</li>
-                        <li>Purchases</li>
+                        <Link to="/purchase" style={{color:'inherit', textDecoration: 'none'}}><li>Purchases</li></Link>
                         <Link to="/inventory" style={{color:'inherit', textDecoration: 'none'}}><li>Inventory</li></Link>
                         <li>Invoices</li>
                     </div>
