@@ -14,7 +14,7 @@ const Sidebar = () => {
     return (
         <div className={styles.sidebar}>
             <div className={styles.flexbox}>
-                <h1><img src={sidebarlogo} alt="" /></h1>
+                <Link to="/home" style={{color:'inherit', textDecoration: 'none'}}><h1><img src={sidebarlogo} alt="" /></h1></Link>
 
                 <ul>
                     <div className={styles.div}>
