@@ -42,15 +42,15 @@ const Addnewsale = () => {
                     <section>
                     <tr>
                         <th>Item name</th>
+                        <th>Order ID</th>
                         <th>Unit</th>
-                        <th>Cost price (cp)</th>
                         <th>Qty</th>
-                        <th>Markup/profit margin</th>
                         <th>Selling price (sp)</th>
-                        <th>Batch no/Item I.D</th>
+                        <th>Discount %</th>
+                        <th>Amount received</th>
+                        <th>Balance due</th>
                         <th>Total amount</th>
                         <th>VAT</th>
-                        <th>Expiration date</th>
                     </tr>
                     <tr>
                         <td>Add</td>

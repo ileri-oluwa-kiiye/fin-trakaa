@@ -140,6 +140,7 @@ div .overflow{
 table td, th{
     border: 1px solid rgba(29, 25, 240, 0.4);
     padding: 7px 5px;
+    border-collapse: collapse;
     text-align: center;
 }
 
