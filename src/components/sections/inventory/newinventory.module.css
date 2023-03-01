@@ -161,11 +161,66 @@ aside header{
     padding:  15px;
 }
 
+.inventory header{
+    background-color: #E8E8E8;
+    border-radius: 20px 20px 0px 0px;
+    padding:  15px;
+}
+
+.inventory .flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+.inventory{
+    box-shadow: 0px 4px 40px 4px rgba(29, 25, 240, 0.11);
+    border-radius: 20px;
+    margin: 100px 0px;
+    margin-top: 30px;
+}
+
+.inventory .upload{
+    width: 50%;
+}
+
+
+
+.inventory .upload p{
+    text-align: center;
+    margin: 15px auto;
+    max-width: 300px;
+}
+.inventory h2{
+    font-weight: 500;
+    font-size: 14px;
+    margin: 7px 0px;
+    line-height: 21px;
+}
+
+.inventory input{
+    margin-bottom: 10px;
+    padding: 10px 14px;
+    border-radius: 5px;
+    outline: none;
+    max-width: 40vw;
+    width: 300px;
+    border: 1px solid #D9D9D9;
+
+}
 aside h2{
     font-weight: 500;
     font-size: 14px;
     margin: 7px 0px;
     line-height: 21px;
+}
+
+.inventory .images{
+    background-color: rgba(29, 25, 240, 0.4);
+    padding: 40px 60px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: auto;
 }
 
 aside input{
@@ -193,4 +248,14 @@ aside .one{
 
 .one div div{
     padding: 2px 15px;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+    .inventory .flex{
+        display: block;
+        width:80%;
+    }
 }

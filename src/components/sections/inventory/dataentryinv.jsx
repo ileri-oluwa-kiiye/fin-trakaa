@@ -2,6 +2,7 @@ import styles from "./newinventory.module.css"
 import cloud from "../../../img/cloudcheck.png"
 import info from "../../../img/info.png"
 import { Link } from "react-router-dom"
+import upload from "../../../img/upload.png"
 import del from "../../../img/del.png"
 
 
@@ -64,30 +65,39 @@ const Addinv = () => {
             </div>
 
 
-            {/* <aside>
+            <div className={styles.inventory}>
+                <header>Supplier's Details</header>
+                <div className={styles.flex}>
                     <div>
-                        <header>Supplier's Details</header>
                         <div>
-                            <div>
-                                <h2>Name</h2>
-                                <input type="text" />
-                            </div>
-                            <div>
-                                <h2>Address</h2>
-                                <input type="text" />
-                            </div>
-                            <div>
-                                <h2>Phone number</h2>
-                                <input type="text" />
-                            </div>
-                            <div>
-                                <h2>Email</h2>
-                                <input type="email" />
-                            </div>
+                            <h2>Name</h2>
+                            <input type="text" />
+                        </div>
+                        <div>
+                            <h2>Address</h2>
+                            <input type="text" />
+                        </div>
+                        <div>
+                            <h2>Phone number</h2>
+                            <input type="text" />
+                        </div>
+                        <div>
+                            <h2>Email</h2>
+                            <input type="email" />
                         </div>
                     </div>
-            </aside> */}
+                    <div className={styles.upload}>
+                        <div className={styles.images}>
+                            <img src={upload} alt="" />
+                        </div>
+                        <p>Upload receipt/invoice of this transactions</p>
+                    </div>
+                </div>
+            </div>
             
+            <Link to="/dashboard" style={{color:'inherit', textDecoration: 'none'}}>
+                <div style={{display:'flex', justifyContent:'flex-end'}}><button className={styles.invbutton}>Preview</button></div>
+            </Link>
         </div>
     )
 }
