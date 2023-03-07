@@ -31,3 +31,36 @@
     line-height: 24px;
     margin-top: 20px;
 }
+
+
+
+
+@media screen and (max-width:1000px){
+
+    .section{
+        padding: 5px 20px 50px 20px;
+        margin: auto;
+        display: block;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 5%;
+        max-width: 80vw;
+    }
+
+    .section p{
+        font-size: 11px;
+        line-height: 18px;
+        max-width: 70vw;
+        min-width: 70vw;
+    }
+
+    .section h1{
+        font-size: 24px;
+        line-height: 40px;
+        max-width: 90vw;
+        min-width: 70vw;
+    }
+
+
+   
+    
+}

@@ -85,6 +85,8 @@
         font-size: 19px;
     }
 
+    
+
     .first, .second, .third div{
         width: fit-content;
         margin: auto;
@@ -106,6 +108,17 @@
 
     .flex{
         display: block;
+    }
+
+    .logos{
+        border-radius: 1000px;
+        margin: 20px ;
+        padding: 25px 30px;
+    }
+    
+    .logos img{
+        min-width: 50px;
+        min-height: 60px;
     }
 
 }

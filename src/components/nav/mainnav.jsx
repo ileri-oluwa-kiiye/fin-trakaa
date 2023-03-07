@@ -22,7 +22,7 @@ const Mainnav = () => {
             </ul>
 
 
-            <ul className={styles.secondlist}>
+            <ul className={styles.secondlist}  id='top'>
                 <li><Link to="/login" style={{color:'inherit', textDecoration: 'none'}}><button className={styles.login}>Log In</button></Link></li>
                 <li><Link to="/signup" style={{color:'inherit', textDecoration: 'none'}}><button className={styles.signup}>Sign up</button></Link></li>
             </ul>

@@ -1,6 +1,7 @@
 import styles from "./mobilenav.module.css"
 import { Link } from "react-router-dom"
 import opennav from "../../img/hamburger.png"
+import mobilelogo from "../../img/mobilelogo.png"
 
 // const Show = document.getElementById("opennav")
 
@@ -13,7 +14,7 @@ const Mobilenav = () => {
         
         <div>
             <div className={styles.flex}>
-                <div className={styles.logo}>Fin-traka</div>
+                <div><img src={mobilelogo} alt="" /></div>
                 <div className={styles.opennav} id="opennav" onClick={Try()}><img src={opennav} alt="" /></div>
             </div>
 

@@ -4,6 +4,7 @@ import twitter from "../../img/twitter.png"
 import mail from "../../img/mail.png"
 import footerlogo from "../../img/footerlogo.png"
 import instagram from "../../img/instagram.png"
+import { Link } from "react-router-dom"
 
 const Footer =() =>{
     return(
@@ -12,9 +13,9 @@ const Footer =() =>{
                 
                 <div className={styles.flex}>
                     <div className={styles.first}>
-                        <div className={styles.logos}>
+                    <Link to="/" style={{color:'inherit', textDecoration: 'none'}}><div className={styles.logos}>
                             <img src={footerlogo} alt="" />
-                        </div>
+                        </div></Link>
                         <ul>
                             <li>
                                 <a href="https://facebook.com"><img src={facebook} alt="" /></a>
