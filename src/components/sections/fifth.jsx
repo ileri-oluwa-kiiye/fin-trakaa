@@ -40,9 +40,10 @@ const Fifthsection = () => {
                         <div>Payroll management</div>
                     </li>
                 </ul>
+
                 <li>
-                        <p> <img src={profit} alt="" /></p>
-                    <div>Profit & loss statement</div>
+                    <p> <img src={profit} alt="" /></p>
+                    <div style={{marginTop: "30px"}}>Profit & loss statement</div>
                 </li>
             </div>
         </div>
