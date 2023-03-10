@@ -2,6 +2,7 @@ import styles from "./inventory.module.css"
 import Intop from "../components/sections/inventory/intop"
 import Purside from "../components/sections/inventory/purside"
 import Newpur from "../components/sections/inventory/newpur"
+import Booknav from "../components/nav/booknav"
 
 
 
@@ -12,7 +13,12 @@ const Purchases = () => {
                 <Purside />
             </div>
             <div className={styles.content}>
-                <Intop />
+                    <div className={styles.desktop}>
+                        <Intop />
+                    </div>
+                    <div className={styles.mobile}>
+                        <Booknav />
+                    </div>
                 <div className="controlwidth">
                     <Newpur />
                 </div>

@@ -9,7 +9,7 @@ const Newsales = () => {
         <div>
             <div className={styles.heading}>
                 <div>
-                     <h2>Sales  |</h2>
+                    <h2>Sales  |</h2>
                     <p>No edit yet</p>
                     <img src={cloud} alt="" />
                 </div>

@@ -43,6 +43,7 @@ const Booknav = () => {
 
 
                 <ul className={styles.firstlist}>
+                    <Link to="/dashboard" style={{color:'inherit', textDecoration: 'none'}}><li>Dashboard</li> </Link>
                     <Link to="/newsales" style={{color:'inherit', textDecoration: 'none'}}><li>Sales</li></Link>
                     <Link to="/purchase" style={{color:'inherit', textDecoration: 'none'}}><li>Purchase</li></Link>
                     <Link to="/inventory" style={{color:'inherit', textDecoration: 'none'}}><li>Inventory</li> </Link>

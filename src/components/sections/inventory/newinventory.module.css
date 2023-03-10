@@ -258,4 +258,62 @@ aside .one{
         display: block;
         width:80%;
     }
+
+    img{
+        max-width: 70vw;
+    }
+
+    .heading h2{
+        font-size:18px;
+    }
+
+    .heading button{
+        padding: 3px 6px;
+    }
+
+    .heading div{
+        min-width: 190px;
+    }
+
+    .heading{
+        padding: 12px 0px;
+    }
+
+    .table{
+        font-size: 12px;
+    }
+
+    .table div{
+        width: 74%;
+    }
+
+
+    .inventory .upload p{
+        text-align: center;
+        margin: 15px auto;
+        font-size: 12px;
+    }
+
+    .inventory h2{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 21px;
+    }
+    aside .flex{
+        display: block;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:330px) {
+    .heading{
+        font-size:12px;
+    }
 }

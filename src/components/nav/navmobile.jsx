@@ -51,7 +51,7 @@ const Navmobile = () => {
 
 
                 <ul className={styles.secondlist}>
-                    <Link to="/login" style={{color:'inherit', textDecoration: 'none'}}><li><button className={styles.login}>Log Out</button></li></Link>
+                    <Link to="/" style={{color:'inherit', textDecoration: 'none'}}><li><button className={styles.login}>Log Out</button></li></Link>
                 </ul>
             </div>
         </div>
