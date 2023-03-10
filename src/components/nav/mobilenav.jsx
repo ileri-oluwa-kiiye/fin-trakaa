@@ -39,7 +39,7 @@ const Mobilenav = () => {
                     <Link to="/login" style={{color:'inherit', textDecoration: 'none'}}><li>Book keeping</li></Link>
                     <Link to="/login" style={{color:'inherit', textDecoration: 'none'}}><li>Dashboard</li></Link>
                     <Link to="/login" style={{color:'inherit', textDecoration: 'none'}}><li> Pricing </li> </Link>
-                    <li>Donate</li>
+                    <Link to="/donation" style={{color:'inherit', textDecoration: 'none'}}><li>Donate</li></Link>
                 </ul>
 
 
