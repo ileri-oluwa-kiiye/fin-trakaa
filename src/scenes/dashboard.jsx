@@ -7,6 +7,7 @@ import Balancesheet from "../components/sections/balancesheet"
 import Blog from "../components/sections/blogdb"
 import Profit from "../components/sections/profit"
 import Payroll from "../components/sections/payroll"
+import Navmobile from "../components/nav/navmobile"
 import Connect from "../components/sections/connect"
 
 
@@ -17,7 +18,10 @@ const Dashboard = () => {
                 <Sidebar />
             </div>
             <div className={styles.content}>
-                <Topbar />
+                <div className={styles.desktop}>
+                    <Topbar />
+                </div>
+                <div className={styles.mobile}><Navmobile /></div>
                 <div className="controlwidth">
                     <Welcome />
                     <div className={styles.flex}>

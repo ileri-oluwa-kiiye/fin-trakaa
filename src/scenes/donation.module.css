@@ -299,11 +299,15 @@
 
 
     .main h1{
-        font-size: 30px;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 32px;
+        margin-bottom: 25px;
     }
 
+
     .main p{
-        font-size: 14px;
+        font-size: 13px;
     }
     .main h2{
         font-size: 20px;

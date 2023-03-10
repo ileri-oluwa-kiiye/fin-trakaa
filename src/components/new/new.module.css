@@ -45,4 +45,8 @@
     .dashboard p{
         font-size: 12px;
     }
+    
+    .dashboard img{
+        max-width: 70vw;
+    }
 }

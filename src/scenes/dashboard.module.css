@@ -19,6 +19,10 @@
   max-width: 60vw;
 }
 
+.mobile{
+  display: none;
+}
+
 .flexx{
   display: flex;
   max-width: 60vw;
@@ -55,6 +59,13 @@
 
     .flexx div{
       max-width: 73vw;
+    }
+
+    .mobile{
+      display: block;
+    }
+    .desktop{
+      display: none;
     }
   }
 

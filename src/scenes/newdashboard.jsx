@@ -2,6 +2,7 @@ import styles from "./dashboard.module.css"
 import Sidebar from "../components/nav/sidebar"
 import Topbar from "../components/nav/topbar"
 import Newdashboard from "../components/new/newdashboard"
+import Navmobile from "../components/nav/navmobile"
 
 
 const Newdashboardd = () => {
@@ -11,7 +12,10 @@ const Newdashboardd = () => {
                 <Sidebar />
             </div>
             <div className={styles.content}>
-                <Topbar />
+                <div className={styles.desktop}>
+                    <Topbar />
+                </div>
+                <div className={styles.mobile}><Navmobile /></div>
                 <div className="controlwidth">
                     <Newdashboard />
                 </div>

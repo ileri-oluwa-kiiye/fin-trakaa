@@ -45,7 +45,9 @@
     }
 
     .image{
-        display: none;
+        /* display: none; */
+        max-width: 80vw;
+        margin: auto;
     }
 }
 

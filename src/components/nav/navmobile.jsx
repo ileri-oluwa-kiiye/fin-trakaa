@@ -1,38 +1,32 @@
 import styles from "./mobilenav.module.css"
 import { Link } from "react-router-dom"
-import close from "../../img/close.png"
-import opennav from "../../img/hamburger.png"
-import mobilelogo from "../../img/mobilelogo.png"
-import { useRef } from "react"
+import notify from "../../img/two.png"
+import profile from "../../img/four.png"
+import opennav from "../../img/blueham.png"
 
 // const Show = document.getElementById("opennav")
 
 
-const Mobilenav = () => {
-    const showNav = () =>{
-        navRef.current.style.width = "100vw"
+const Navmobile = () => {
+    const Try = () =>{
+        console.log("this")
     }
-    
-    const hideNav = () =>{
-        navRef.current.style.width = "0vw"
-    }
-
-    const navRef = useRef()
-
     return(
         
         <div>
             <div className={styles.flex}>
-                <div><img src={mobilelogo} alt="" /></div>
-                <div className={styles.opennav} onClick={showNav}><img src={opennav} alt="" /></div>
+                <div className={styles.opennav} id="opennav" onClick={Try()}><img src={opennav} alt="" /></div>
+                <div className={styles.icons}>
+                    {/* The Icons For The Top Bar */}
+                    <ul>
+                        <img src={notify} alt="" title="notifications" style={{marginRight:'3vw', width:'15px'}}/>
+                        <img src={profile} alt="" title="my profile" style={{ width:'18.5px'}}/>
+                    </ul>
+                </div>
             </div>
 
-            <div className={styles.wrapdiv} id="hide" ref={navRef}>
-                <div style={{display:'flex', justifyContent:'space-between', padding:'10px 20px', alignItems:'center'}}>
-
-                    <div><img src={mobilelogo} alt="" /></div>
-                    <div  onClick={hideNav}><img src={close} alt="" style={{cursor:'pointer', width:'20px'}} /></div>
-                </div>
+            <div className={styles.wrapdiv} id="hide">
+                <h1 className={styles.logo}><div>Logo</div></h1>
 
 
                 <ul className={styles.firstlist}>
@@ -52,4 +46,4 @@ const Mobilenav = () => {
     )
 }
 
-export default Mobilenav
+export default Navmobile

@@ -49,3 +49,14 @@ max-width: 500px;
     border: 1px solid black;
 }
 
+
+@media screen and (max-width:1000px) {
+    .div h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    max-width: 500px;
+    margin-top: 30px;
+    }
+}
+
