@@ -10,7 +10,7 @@ import opennav from "../../img/blueham.png"
 // const Show = document.getElementById("opennav")
 
 
-const Navmobile = () => {
+const Booknav = () => {
     const showNav = () =>{
         navRef.current.style.width = "100vw"
     }
@@ -43,10 +43,10 @@ const Navmobile = () => {
 
 
                 <ul className={styles.firstlist}>
-                    <Link to="/dashboard" style={{color:'inherit', textDecoration: 'none'}}><li>Dashboard</li></Link>
-                    <Link to="/newsales" style={{color:'inherit', textDecoration: 'none'}}><li>Bookkeeping</li></Link>
-                    <Link to="/scaninventory" style={{color:'inherit', textDecoration: 'none'}}><li> Scan </li> </Link>
-                    <Link to="/" style={{color:'inherit', textDecoration: 'none'}}><li> Blog </li> </Link>
+                    <Link to="/newsales" style={{color:'inherit', textDecoration: 'none'}}><li>Sales</li></Link>
+                    <Link to="/purchase" style={{color:'inherit', textDecoration: 'none'}}><li>Purchase</li></Link>
+                    <Link to="/inventory" style={{color:'inherit', textDecoration: 'none'}}><li>Inventory</li> </Link>
+                    <li>Invoices</li>
                 </ul>
 
 
@@ -58,4 +58,4 @@ const Navmobile = () => {
     )
 }
 
-export default Navmobile
+export default Booknav
