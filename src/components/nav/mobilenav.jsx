@@ -36,16 +36,16 @@ const Mobilenav = () => {
 
 
                 <ul className={styles.firstlist}>
-                    <li className={styles.active}>Book keeping</li>
-                    <li><Link to="/dashboard" style={{color:'inherit', textDecoration: 'none'}}>Dashboard</Link></li>
-                    <li> Pricing  </li>
-                    <li>Blog</li>
+                    <Link to="/login" style={{color:'inherit', textDecoration: 'none'}}><li>Book keeping</li></Link>
+                    <Link to="/login" style={{color:'inherit', textDecoration: 'none'}}><li>Dashboard</li></Link>
+                    <Link to="/login" style={{color:'inherit', textDecoration: 'none'}}><li> Pricing </li> </Link>
+                    <li>Donate</li>
                 </ul>
 
 
                 <ul className={styles.secondlist}>
-                    <li><button className={styles.login}><Link to="/login" style={{color:'inherit', textDecoration: 'none'}}>Log In</Link></button></li>
-                    <li><button className={styles.signup}><Link to="/signup" style={{color:'inherit', textDecoration: 'none'}}>Sign up</Link></button></li>
+                    <Link to="/login" style={{color:'inherit', textDecoration: 'none'}}><li><button className={styles.login}>Log In</button></li></Link>
+                    <Link to="/signup" style={{color:'inherit', textDecoration: 'none'}}><li><button className={styles.signup}>Sign up</button></li></Link>
                 </ul>
             </div>
         </div>
