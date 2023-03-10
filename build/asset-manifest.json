@@ -1,13 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.61fdaf06.css",
-    "main.js": "/static/js/main.8b195328.js",
+    "main.css": "/static/css/main.05128baf.css",
+    "main.js": "/static/js/main.dc4ad98b.js",
+    "static/media/news.png": "/static/media/news.bcf84200e346f20271e1.png",
+    "static/media/signup.png": "/static/media/signup.0ce53b6f290c34443a58.png",
+    "static/media/confirm.png": "/static/media/confirm.3b87cfac19a1787fad15.png",
+    "static/media/hero.png": "/static/media/hero.381fab0400d51b440c8e.png",
+    "static/media/login.png": "/static/media/login.6f9d1f5665c3a94dda79.png",
+    "static/media/servicestwo.png": "/static/media/servicestwo.c160aefb5b8463d78fdf.png",
+    "static/media/second.png": "/static/media/second.2e0c450af45e1ccdde4f.png",
+    "static/media/thirdsection.png": "/static/media/thirdsection.e6d8a1260df7e82b730f.png",
+    "static/media/donation.png": "/static/media/donation.c96a1625020e05b090d3.png",
+    "static/media/servicesone.png": "/static/media/servicesone.5a44aeb1bc4e0e50cbd8.png",
+    "static/media/inventory.png": "/static/media/inventory.ab310577277de00278cf.png",
+    "static/media/crypto.png": "/static/media/crypto.c519dc85c5f244ffc6ce.png",
+    "static/media/scaninv.png": "/static/media/scaninv.7b134a408ca3855b9f22.png",
+    "static/media/pana.png": "/static/media/pana.91c86a2a5aaeed1993ce.png",
+    "static/media/thankyou.png": "/static/media/thankyou.a8472d1175beb490e993.png",
+    "static/media/newsale.png": "/static/media/newsale.6fe5d4fbe3e75b8ec25f.png",
+    "static/media/welcome.png": "/static/media/welcome.0dbd7ae79ec5ff10bf31.png",
+    "static/media/help.png": "/static/media/help.c7a1dcdb9628ce2251a5.png",
+    "static/media/premium.png": "/static/media/premium.d97b1805b6f95c23cee0.png",
+    "static/media/blog3.png": "/static/media/blog3.7a0c66e546ebc4b96960.png",
+    "static/media/blog1.png": "/static/media/blog1.8e767fd19150901ed7f3.png",
+    "static/media/blog2.png": "/static/media/blog2.0aac3de91e0b94ca6170.png",
     "index.html": "/index.html",
-    "main.61fdaf06.css.map": "/static/css/main.61fdaf06.css.map",
-    "main.8b195328.js.map": "/static/js/main.8b195328.js.map"
+    "main.05128baf.css.map": "/static/css/main.05128baf.css.map",
+    "main.dc4ad98b.js.map": "/static/js/main.dc4ad98b.js.map"
   },
   "entrypoints": [
-    "static/css/main.61fdaf06.css",
-    "static/js/main.8b195328.js"
+    "static/css/main.05128baf.css",
+    "static/js/main.dc4ad98b.js"
   ]
 }
