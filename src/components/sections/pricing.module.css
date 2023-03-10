@@ -1,0 +1,135 @@
+.wrapdiv{
+    background-color: #1D19F0;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    height: 520px;
+    padding: 10px;
+    margin-bottom: 1000px;
+}
+
+.wrapdiv h1{
+    text-align: center;
+    margin: 20px 0px;
+    padding-top: 53px;
+    font-size: 33px;
+    line-height: 60px;
+}
+
+.wrapdiv h4{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+
+.flexbox{
+    background-color: white;
+    color: #7A7777;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px 4px rgba(19, 54, 168, 0.11);
+    margin: 50px 35px;
+    max-width: 27vw;
+    padding: 23px;
+    height: 1000px;
+    margin-top: 100px;
+}
+
+.flexbox ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    margin-bottom: 30px;
+}
+
+.flex{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox ul li{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.flexbox ul li img{
+    margin-right: 20px;
+}
+
+.flexbox hr{
+    color: #C7C7C7;
+    margin: 10px auto;
+}
+
+.flexbox h5{
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.flexbox button{
+    letter-spacing: 0.2em;
+    color: #1336A8;
+    padding: 12px 55px;
+    border: 1px solid #1336A8;
+}
+
+.flexbox div.button{
+    width: max-content;
+    margin: 10px auto;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    color: black;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 15px 40px;
+    border: 2px solid #1D19F0;
+    border-radius: 1000px;
+}
+
+.price span{
+    font-size: 24px;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .wrapdiv h1{
+        text-align: center;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .flexbox{
+        width: 400px;
+        max-width: 80vw;
+        margin: 50px 5px;
+        height: 890px;
+    }
+
+
+    .flexbox ul li img{
+        margin-right: 3vw;
+    }
+
+    .flex{
+        display: block;
+    }
+
+    .wrapdiv{
+        margin-bottom: 2800px;
+        height: 450px;
+        font-size: 12px;
+    }
+}

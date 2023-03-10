@@ -17,7 +17,7 @@ const Mainnav = () => {
             <ul className={styles.firstlist}>
                 <Link to="/login" style={{color:'inherit', textDecoration: 'none'}}><li>Bookkeeping</li></Link>
                 <Link to="/login" style={{color:'inherit', textDecoration: 'none'}}><li>Consultancy</li></Link>
-                <Link to="/login" style={{color:'inherit', textDecoration: 'none'}}><li>Pricing</li></Link>
+                <Link to="/pricing" style={{color:'inherit', textDecoration: 'none'}}><li>Pricing</li></Link>
                 <Link to="/donation" style={{color:'inherit', textDecoration: 'none'}}><li>Donate</li></Link>
             </ul>
 

@@ -19,7 +19,7 @@ const Loginform = () => {
       <form action="/dashboard" method="GET">
         <div>
             <label htmlFor="email">E-mail address</label> 
-            <div><input type="email" /></div>
+            <div><input type="email" name="email" /></div>
           </div>
           <div>
             <label htmlFor="password">Password</label> 

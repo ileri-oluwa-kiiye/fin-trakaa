@@ -16,6 +16,7 @@ import Manualdata from "./scenes/manualdata";
 import Scandata from "./scenes/scaninv";
 import Purchases from "./scenes/purchase";
 import Addsale from "./scenes/addsale";
+import Pricing from "./scenes/pricing";
 
 
 
@@ -41,6 +42,7 @@ function App() {
           <Route path="/scaninventory" element={<Scandata />} />
           <Route path="/purchase" element={<Purchases />} />
           <Route path="/addsale" element={<Addsale />} />
+          <Route path="/pricing" element={<Pricing />} />
         </Routes>
       </BrowserRouter>
   );
