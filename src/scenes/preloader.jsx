@@ -27,10 +27,15 @@ function Preloader() {
   function handleLoad() {
     setTimeout(() => {
       setShowPreloader(false);
-    }, 5000); // add a 1 second delay before hiding the preloader
+    }, 100); // add a 1 second delay before hiding the preloader
   }
   
-  handleLoad()
+  function handleLoadTwo() {
+    setTimeout(() => {
+      setShowPreloader(false);
+    }, 5000); // add a 1 second delay before hiding the preloader
+  }
+  handleLoadTwo()
 
   return (
     <div className={`preloader-container${showPreloader ? ' show' : ''}`}>
