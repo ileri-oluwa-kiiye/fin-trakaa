@@ -1,51 +1,27 @@
 import { useState, useEffect } from 'react';
-import './preloader.css'; 
+import './preloader.css'; // import your preloader styles here
 
 function Preloader() {
-  const [text, setText] = useState('');
-  const loadingText = 'Fin-traka';
   const [showPreloader, setShowPreloader] = useState(true);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      if (text.length === loadingText.length) {
-        clearInterval(interval);
-      } else {
-        setText(prevText => prevText + loadingText.charAt(prevText.length));
-      }
-    }, 200); // adjust the speed here
+    const timeoutId = setTimeout(() => {
+      setShowPreloader(false);
+    }, 3000);
 
-    return () => clearInterval(interval);
-  }, [text]);
-
-  useEffect(() => {
-    window.addEventListener('load', handleLoad);
-
-    return () => window.removeEventListener('load', handleLoad);
+    return () => clearTimeout(timeoutId);
   }, []);
-
-  function handleLoad() {
-    setTimeout(() => {
-        console.log("worked")
-      setShowPreloader(false);
-    }, 100); // add a 1 second delay before hiding the preloader
-  }
-  
-  function handleLoadTwo() {
-    setTimeout(() => {
-      setShowPreloader(false);
-    }, 3100); // add a 1 second delay before hiding the preloader
-  }
-  handleLoadTwo()
 
   return (
     <div className={`preloader-container${showPreloader ? ' show' : ''}`}>
       <div className="preloader">
-        <p className="text">{text}</p>
+        <div className="preloader-spinner"></div>
+        <div className="preloader-text">Fin-traka</div>
       </div>
     </div>
   );
 }
+
 
 
 

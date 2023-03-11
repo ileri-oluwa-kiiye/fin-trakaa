@@ -1,32 +1,49 @@
 .preloader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #fff; /* adjust the background color to your liking */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 9999;
+  }
+  
+  .preloader-container.show {
+    opacity: 1;
   }
   
   .preloader {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 300px; /* adjust the width to your liking */
-    height: 300px; /* adjust the height to your liking */
-    border-radius: 50%;
-    color: white;
-    background-color: white; /* adjust the background color to your liking */
-    animation: pulse 1s ease-in-out infinite; /* add an animation to the preloader */
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
   }
   
-  .text {
+  .preloader-spinner {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(29, 25, 240,0.5);
+    border-top-color: transparent;
+    animation: preloader-spin 1s linear infinite;
+    margin-bottom: 20px;
+  }
+  
+  .preloader-text {
     font-family: 'YourFeminineFont', cursive; /* replace 'YourFeminineFont' with the name of your chosen font */
     font-size: 36px; /* adjust the font size to your liking */
     color: #1D19F0;; /* adjust the color to your liking */
     animation: appear 1s linear; /* add an animation to the text */
   }
-
-
-
+  
+  
+  
   
   @keyframes pulse {
     0% {
@@ -51,27 +68,9 @@
     }
   }
   
-
-  .preloader-container.show {
-    visibility: visible;
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
-  }
-
-    
-  .preloader-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    height: 110vh;
-    z-index: 29320899;
-    position: fixed;
-    top: 0px;
-    background-color: #fff; /* adjust the background color to your liking */
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s linear 1s, opacity 1s ease-in-out;
-    /* the transition delay should be equal to the duration of the appear animation */
+  @keyframes preloader-spin {
+    to {
+      transform: rotate(360deg);
+    }
   }
   
