@@ -6,7 +6,6 @@ import Fourthsection from "../components/sections/forth"
 import Fifthsection from "../components/sections/fifth"
 import SixthSection from "../components/sections/sixth"
 import Seventhsection from "../components/sections/seventh"
-import Pricingpage from "../components/sections/pricingpage"
 import Footer from "../components/sections/footer"
 import Mobilenav from "../components/nav/mobilenav"
 import Preloader from "./preloader"
@@ -26,7 +25,6 @@ const Home = () => {
             <Fifthsection />
             <SixthSection />
             <Seventhsection />
-            <Pricingpage />
             <Footer/>
         </>
     )

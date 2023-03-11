@@ -26,6 +26,7 @@ function Preloader() {
 
   function handleLoad() {
     setTimeout(() => {
+        console.log("worked")
       setShowPreloader(false);
     }, 100); // add a 1 second delay before hiding the preloader
   }
