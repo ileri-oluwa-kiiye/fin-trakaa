@@ -24,6 +24,14 @@
     padding: 3% 10px;
 }
 
+.flexx{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 37vw;
+
+}
+
  ul.first{
     display: flex;
     justify-content: space-between;
@@ -85,7 +93,27 @@
     .flex p{
         margin-top: 5px;
     }
+    .flexx{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 10px 30px;
+        min-width: 85vw;
+        
     
+    }
+
+    .flexx div{
+        max-width: 50vw;
+    }
+
+    .flexx p{
+        max-width: 150px;
+    }
+
+    .pro{
+        margin-top: 128px;
+    }
 
 }
 

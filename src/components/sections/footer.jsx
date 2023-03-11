@@ -12,52 +12,58 @@ const Footer =() =>{
             <div className="controlwidth">
                 <div className={styles.flex}>
 
-                    <div>
-                        <div className={styles.logos}>
-                            <img src={footerlogo} alt="" />
+                <div className={styles.flexx}>
+
+                        <div>
+                            <div className={styles.logos}>
+                                <img src={footerlogo} alt="" />
+                            </div>
+                            <img src={fintraka} alt="" width={130}  />
+                            <ul className={styles.first}>
+                                <li>
+                                    <a href="https://facebook.com"><img src={facebook} alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com"><img src={twitter} alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="https://gmail.com"><img src={mail} alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com"><img src={instagram} alt="" /></a>
+                                </li>
+                            </ul>
+                            <p>
+                            All rights reserved.
+                            Terms and conditions, pricing, support, features and service
+                            options are subject to change by the company without prior notice
+                            </p>
                         </div>
-                        <img src={fintraka} alt="" width={130}  />
-                        <ul className={styles.first}>
-                            <li>
-                                <a href="https://facebook.com"><img src={facebook} alt="" /></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com"><img src={twitter} alt="" /></a>
-                            </li>
-                            <li>
-                                <a href="https://gmail.com"><img src={mail} alt="" /></a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com"><img src={instagram} alt="" /></a>
-                            </li>
-                        </ul>
-                        <p>
-                        All rights reserved.
-                        Terms and conditions, pricing, support, features and service
-                        options are subject to change by the company without prior notice
-                        </p>
+
+                        <div className={styles.pro}>
+                            <h2>Products</h2>
+                            <p>Book keeping</p>
+                            <p>Consultancy</p>
+                            <p>Blog</p>
+                        </div>
+
                     </div>
 
-                    <div>
-                        <h2>Products</h2>
-                        <p>Book keeping</p>
-                        <p>Consultancy</p>
-                        <p>Blog</p>
-                    </div>
+                    <div className={styles.flexx}>
+                        <div>
+                            <h2>Company</h2>
+                            <p>About</p>
+                            <p>Privacy policy</p>
+                            <p>Terms of use</p>
+                            <p>Partner with us</p>
+                        </div>
 
-                    <div>
-                        <h2>Company</h2>
-                        <p>About</p>
-                        <p>Privacy policy</p>
-                        <p>Terms of use</p>
-                        <p>Partner with us</p>
-                    </div>
-
-                    <div>
-                        <h2>Reach out</h2>
-                        <p>Contact</p>
-                        <p>Donation</p>
-                        <p>Make a suggestion</p>
+                        <div>
+                            <h2>Reach out</h2>
+                            <p>Contact</p>
+                            <p>Donation</p>
+                            <p>Make a suggestion</p>
+                        </div>
                     </div>
 
                 </div>
