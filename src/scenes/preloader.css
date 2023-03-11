@@ -21,7 +21,7 @@
   .text {
     font-family: 'YourFeminineFont', cursive; /* replace 'YourFeminineFont' with the name of your chosen font */
     font-size: 36px; /* adjust the font size to your liking */
-    color: black; /* adjust the color to your liking */
+    color: #1D19F0;; /* adjust the color to your liking */
     animation: appear 1s linear; /* add an animation to the text */
   }
 
