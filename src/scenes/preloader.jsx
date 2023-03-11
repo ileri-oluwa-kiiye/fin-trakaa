@@ -27,7 +27,7 @@ function Preloader() {
   function handleLoad() {
     setTimeout(() => {
       setShowPreloader(false);
-    }, 6000); // add a 1 second delay before hiding the preloader
+    }, 5000); // add a 1 second delay before hiding the preloader
   }
   
   handleLoad()
