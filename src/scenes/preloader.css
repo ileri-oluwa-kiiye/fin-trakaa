@@ -2,19 +2,19 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 0px;
+    overflow: hidden;
     height: 100%;
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
     transition: opacity 0.5s ease;
     z-index: 9999;
   }
   
   .preloader-container.show {
-    opacity: 1;
+    width: 100vw;
   }
   
   .preloader {
