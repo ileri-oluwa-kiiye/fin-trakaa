@@ -58,7 +58,7 @@ const Pricingpage =() =>{
                         <ul>
                             <li>
                                 <div><img src={check} alt="" /></div>
-                                <div>Storage (1GB)</div>
+                                <div>Storage (3GB)</div>
                             </li>
                             <li>
                                 <div><img src={check} alt="" /></div>
@@ -86,11 +86,7 @@ const Pricingpage =() =>{
                             </li>
                             <li>
                                 <div><img src={check} alt="" /></div>
-                                <div>For 5 users + your accountant </div>
-                            </li>
-                            <li>
-                                <div><img src={check} alt="" /></div>
-                                <div>Book consultancy sessions (3 times a month) </div>
+                                <div>For 10 users + your accountant </div>
                             </li>
                         </ul>
 
@@ -111,7 +107,7 @@ const Pricingpage =() =>{
                         <ul>
                             <li>
                                 <div><img src={check} alt="" /></div>
-                                <div>Storage (unlimited)</div>
+                                <div>Storage (5GB)</div>
                             </li>
                             <li>
                                 <div><img src={check} alt="" /></div>
@@ -139,11 +135,7 @@ const Pricingpage =() =>{
                             </li>
                             <li>
                                 <div><img src={check} alt="" /></div>
-                                <div>For 5 users + your accountant </div>
-                            </li>
-                            <li>
-                                <div><img src={check} alt="" /></div>
-                                <div>Book consultancy sessions (3 times a month) </div>
+                                <div>For 15 users + your accountant </div>
                             </li>
                         </ul>
 
